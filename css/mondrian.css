@@ -1,0 +1,79 @@
+/* For testing only */
+
+/**:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px solid black;
+}
+
+.columns {
+  min-height: 100px;
+}*/
+
+/* End for testing */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*----------------Global----------------*/
+body {
+  background-color: #3A3335;
+}
+
+.wrapper {
+
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: #E8E5EA;
+  font-size: 8vw;
+}
+/*----------------Main----------------*/
+.main {
+  position: relative;
+  background-color: #FF4B3E;
+  height: 50vh;
+}
+/*----------------Columns----------------*/
+.columns {
+  height: 50vh;
+}
+
+.columns > div {
+  height: 20vh;
+  margin-top: 5vh;
+  position: relative;
+}
+
+.col-1 {
+  background-color: #FF9D35;
+}
+
+.col-2 {
+  background-color: #2B9BE5;
+}
+
+/*----------------Media Queries----------------*/
+@media screen and (min-width: 600px) {
+  h1 {
+  }
+
+  .main {
+
+  }
+
+  .columns {
+
+  }
+
+  .columns > div {
+
+  }
+}

@@ -1,0 +1,22 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px solid black;
+}
+
+.columns {
+  min-height: 100px;
+}
+
+/* End for testing */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+
+}
