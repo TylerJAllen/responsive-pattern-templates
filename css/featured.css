@@ -37,18 +37,14 @@ h2 {
   font-size: 3.5vw;
 }
 
-
 /*----------------Mast----------------*/
 .mast {
   height: 15vh;
 }
 .logo {
   margin-top: 2vh;
-
 }
-.navBar {
 
-}
 .nav {
   list-style: none;
   margin: 1vh 0;
@@ -95,3 +91,19 @@ h2 {
   margin: 2vh 0;
 }
 /*----------------Media Query----------------*/
+@media screen and (min-width: 650px) {
+  .logo, .nav {
+    float: left;
+    width: 46vw;
+    text-align: left;
+  }
+  .upTop:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .nav {
+    margin-top: 2vh;
+  }
+
+}
