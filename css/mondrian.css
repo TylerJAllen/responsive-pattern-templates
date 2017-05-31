@@ -50,6 +50,7 @@ h1 {
   height: 20vh;
   margin-top: 5vh;
   position: relative;
+
 }
 
 .col-1 {
@@ -62,18 +63,36 @@ h1 {
 
 /*----------------Media Queries----------------*/
 @media screen and (min-width: 600px) {
+  body {
+
+  }
+
   h1 {
   }
 
   .main {
-
+    margin-bottom: 2vh;
   }
 
   .columns {
+  }
 
+  .main, .columns {
+    width: 100vw;
+    height: 49vh;
+  }
+
+  .col-1 {
+    float: left;
+  }
+
+  .col-2 {
+    float: right;
   }
 
   .columns > div {
-
+    width: 49vw;
+    height: 100%;
+    margin: 0;
   }
 }
