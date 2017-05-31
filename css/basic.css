@@ -1,22 +1,44 @@
 /* For testing only */
 
-*:not(body):not(html) {
+/**:not(body):not(html) {
   box-sizing:border-box;
   border:1px solid black;
 }
 
 .columns {
   min-height: 100px;
-}
+}*/
 
 /* End for testing */
 
+/*------------Global------------*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.wrapper {
-
+body {
+  background-color: #5B8C5A;
+  color: white;
 }
+/*------------Header------------*/
+.header {
+  height: 16vh;
+  width: 93vw;
+  margin: 3vh auto 0;
+  background-color: #D1CA4B;
+}
+
+/*------------Box Container------------*/
+.boxContainer {
+  height: 84vh;
+}
+
+.box {
+  width: 85vw;
+  height: 25vh;
+  margin: 3vh auto;
+  background-color: #E3655B;
+}
+/*------------Media Queries------------*/
