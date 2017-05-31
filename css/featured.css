@@ -1,22 +1,96 @@
 /* For testing only */
 
-*:not(body):not(html) {
+/**:not(body):not(html) {
   box-sizing:border-box;
   border:1px solid black;
 }
 
 .columns {
   min-height: 100px;
-}
+}*/
 
 /* End for testing */
-
+/*----------------Global----------------*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.wrapper {
+body {
+  background-color: #63B4D1;
+  color: #9448BC;
+  padding: 0 3vw;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4.5vw;
+  margin: .5vh 0;
+}
+
+h2 {
+  font-size: 3.5vw;
+}
+
+
+/*----------------Mast----------------*/
+.mast {
+  height: 15vh;
+}
+.logo {
 
 }
+.navBar {
+
+}
+.nav {
+  list-style: none;
+  margin: 1vh 0;
+}
+.nav li {
+  font-size: 2.5vw;
+  display: inline;
+  margin: 3vh 3vw 3vh 0;
+}
+.nav a {
+  text-decoration: none;
+  color: #D856CD;
+}
+
+/*----------------Banner----------------*/
+.banner {
+  margin-bottom: 5vh;
+}
+
+/*----------------ItemInfo----------------*/
+.itemWrapper {
+  width: 94vw;
+  overflow: auto;
+}
+.item {
+  height: 80vh;
+  width: 94vw;
+
+}
+.itemImage {
+  text-align: center;
+  width: 95vw;
+  height: 95vw;
+  margin: 3vh 0;
+  background-color: #480355;
+  color: #90FCF9;
+}
+.item h3 {
+  margin: 2vh 0;
+  color: #D856CD;
+}
+
+.item p {
+  margin: 2vh 0;
+}
+/*----------------Media Query----------------*/
