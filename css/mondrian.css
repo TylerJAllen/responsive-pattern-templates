@@ -55,18 +55,8 @@ h1 {
 
 /*----------------Media Queries----------------*/
 @media screen and (min-width: 600px) {
-  body {
-
-  }
-
-  h1 {
-  }
-
-  .main {
-    margin-bottom: 2vh;
-  }
-
   .columns {
+    margin-top: 2vh;
   }
 
   .main, .columns {
@@ -89,25 +79,30 @@ h1 {
   }
 }
 
-/*@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) {
   .main {
     width: 74vw;
     float: left;
-    height: 100vh;
   }
 
   .columns {
     width: 24vw;
     float: right;
-    height: 100vh;
   }
 
-  .col-1, .col-2 {
-    height: 50vh;
+  .main, .columns {
+    margin: 0;
+    height: 100vh;
+  }
+  .columns > div {
+    height: 48.5vh;
+    width: 24vw;
+  }
+  .columns h1 {
+    font-size: 4vw;
   }
 
-  .wrapper {
-    height: 100vh;
-    overflow: auto;
+  .columns > div:first-of-type {
+    margin-bottom: 3vh;
   }
-}*/
+}
