@@ -21,15 +21,7 @@ body {
   background-color: #3A3335;
 }
 
-.wrapper {
-
-}
-
 h1 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
   color: #E8E5EA;
@@ -37,19 +29,18 @@ h1 {
 }
 /*----------------Main----------------*/
 .main {
-  position: relative;
   background-color: #FF4B3E;
   height: 50vh;
 }
 /*----------------Columns----------------*/
 .columns {
-  height: 50vh;
+  height: 45vh;
+  margin-top: 5vh;
 }
 
 .columns > div {
   height: 20vh;
-  margin-top: 5vh;
-  position: relative;
+  /*margin-top: 5vh;*/
 
 }
 
@@ -59,6 +50,7 @@ h1 {
 
 .col-2 {
   background-color: #2B9BE5;
+  margin-top: 5vh;
 }
 
 /*----------------Media Queries----------------*/
@@ -96,3 +88,26 @@ h1 {
     margin: 0;
   }
 }
+
+/*@media screen and (min-width: 900px) {
+  .main {
+    width: 74vw;
+    float: left;
+    height: 100vh;
+  }
+
+  .columns {
+    width: 24vw;
+    float: right;
+    height: 100vh;
+  }
+
+  .col-1, .col-2 {
+    height: 50vh;
+  }
+
+  .wrapper {
+    height: 100vh;
+    overflow: auto;
+  }
+}*/
